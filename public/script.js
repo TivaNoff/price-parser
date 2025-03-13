@@ -46,9 +46,11 @@ function displayResults(results) {
     // Перебираємо результати для кожного сайту
     result.results.forEach((siteResult) => {
       content += `<span class="site-name">${siteResult.site}:</span><br/>`;
+      content += `Назва товару: ${siteResult.name}<br/>`;  // Добавлен вывод названия
       content += `Ціна: ${siteResult.price}<br/>`;
       content += `<a href="${siteResult.link}" target="_blank">Посилання на товар</a><br/><br/>`;
     });
+    
 
     resultDiv.innerHTML = content;
     resultsContainer.appendChild(resultDiv);

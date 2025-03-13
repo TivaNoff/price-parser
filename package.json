@@ -4,8 +4,10 @@
     "cheerio": "^1.0.0",
     "express": "^4.21.2",
     "multer": "^1.4.5-lts.1",
+    "playwright": "^1.51.0",
     "puppeteer": "^24.4.0",
-    "puppeteer-cluster": "^0.24.0"
+    "puppeteer-cluster": "^0.24.0",
+    "string-similarity": "^4.0.4"
   },
   "name": "price-parser",
   "version": "1.0.0",
@@ -17,5 +19,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TivaNoff/price-parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TivaNoff/price-parser/issues"
+  },
+  "homepage": "https://github.com/TivaNoff/price-parser#readme",
   "description": ""
 }
